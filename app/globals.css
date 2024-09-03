@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.type-animation-text {
+  font-size: 3rem; /* Default font size */
+}
+
+@media (max-width: 640px) {
+  .type-animation-text {
+    font-size: 1rem; /* Adjusted size for phone screens */
+  }
+}

@@ -84,7 +84,7 @@ function Contact() {
               type="text"
               id="subject"
               required
-              placeholder="Just Say hi"
+              placeholder="Enter your subject here"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9ca2a9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
             />
           </div>

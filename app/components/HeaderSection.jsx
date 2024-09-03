@@ -17,18 +17,15 @@ const HeaderSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Nick",
-                1000,
-                "an aspiring software developer", 
-                1000,
-                "looking for new opportunity",
-                1000,
+                1000, 
+                "Nick Wen",
+                1000, 
+                "an aspiring software developer",
               ]}
               wrapper="span"
               speed={10}
               repeat={Infinity}
+              className="type-animation-text"
             />
           </h1>
 
@@ -41,7 +38,11 @@ const HeaderSection = () => {
           </p>
 
           <div>
-            <button className="transition ease-in-out delay-150 px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-green-500 hover:bg-slate-200 text-white hover:-translate-y-1 hover:scale-100 duration-300"    >
+            <button className="transition ease-in-out delay-150 px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-green-500 hover:bg-slate-200 text-white hover:-translate-y-1 hover:scale-100 duration-300"   
+                onClick={() => {
+                  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                }}
+            >
               Contact me
             </button>
 
