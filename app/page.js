@@ -1,9 +1,9 @@
 import Image from "next/image";
 import HeaderSection from "./components/HeaderSection";
 import NavBar from "./components/NavBar";
-import About from "./components/About";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Project from "./components/Project";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -11,11 +11,11 @@ export default function Home() {
       <div className="mb-28">
       <NavBar/>
       </div>
-      <container class ='container mx-auto py-4 px-12'>
+      <container className ='container mx-auto py-4 px-12'>
       <HeaderSection />
       </container>
-      <About />
-      <Project/>
+      <Experience />
+      <About/>
       <Contact />
     </main>
   );
