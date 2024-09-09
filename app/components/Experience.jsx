@@ -6,27 +6,38 @@ function About() {
   const experiences = [
     {
       company: "Mohawk Industries",
-      role: "Systems Developer Intern",
+      role: "Software Developer Intern",
       date: "05/2023 - 08/2023",
       location: "Calhoun, GA", // Fixed typo: "Calhund" to "Calhoun"
       link: "https://mohawkind.com/",
       jobDes: [
-        "Updated 20-year-old VBA programs into a high-performance module-based design using Python.",
-        "Rebuilt the user interface using Tkinter, creating a modern and user-friendly platform.",
+        `Enhanced application efficiency by optimizing code and refactoring components, reducing
+        runtime 20% and launch time 35%, contributing to more efficient business operations and
+        product development.`,
+        `Translated legacy Visual Basic code to Python, creating maintainable and scalable architecture
+        that reduced technical debt 30% and aligned with modern software design patterns.`,
+        `Revamped user interface with TTKBootstrap, improving design and usability for a more intuitive
+        user experience.`,
+        `Collaborated with cross-functional teams, gathering feedback and refining solutions, ensuring
+        alignment with business objectives and user needs and enhancing overall quality of IT products.`
       ],
-      skills: ["Python", "Tkinter", "SQL", "Git"],
+      skills: ["Python", "Tkinter", "SQL", "Git",'TTKBootstrap','Visual Basic','Microsoft SQL Server','BitBucket','Technical Debt Reductions','Teamwork','Cross-functional Collaboration'],
     },
     {
       company: "Virtucom",
-      role: "Installation Technician",
+      role: "IT Technician Intern",
       date: "05/2022 - 08/2022",
       location: "Peachtree Corners, GA", // Fixed typo: "corner" to "Corners"
       link: "https://virtucom.com/",
       jobDes: [
-        "Installed operating systems, security protocols, and configured startup settings on 500+ devices.",
-        "Provided IT support to solve client's issues on smart panels, PCs, Chromebooks, and laptops.",
+        `Installed operating systems and security protocols across 500+ devices, ensuring network
+        security and consistent performance, aligning with enterprise IT standards.`,
+        `Provided IT support for smart panels, PCs, Chromebooks, and laptops, effectively
+        troubleshooting issues that enhanced system functionality and user satisfaction.`,
+        `Coordinated deployment schedules with school, delivering timely and efficient installation and
+        setup of IT equipment.`
       ],
-      skills: ["Communication", "Networking", "Customer Service", "Operating Systems"],
+      skills: ["Communication", "Networking", "Customer Service", "Operating Systems",'IT Troubleshooting & Support'],
     },
   ];
 

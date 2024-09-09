@@ -52,7 +52,7 @@ function About() {
   },
   ];
 
-  const [aboutState, setAboutState] = useState(2);
+  const [aboutState, setAboutState] = useState(0);
 
   function changeStatue(value){
       setAboutState(value);
